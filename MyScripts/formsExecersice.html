@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormsSolution</title>
+	<style type="text/css">
+		input {
+
+			color: purple;
+		}
+	</style>
+</head>
+<body>
+	
+	</h1>
+	<h1>Register</h1>
+	<form action="http://www.wikipedia.org">
+		<label for="FirstName">FirstName:</label>
+		<input id="FirstName" type="text" name="FirstName" placeholder="John" required>
+		<label for="LastName">LastName:</label>
+		<input id="LastName" type="text" name="LastName" placeholder="Smith" required>
+		<div>
+			<label for="Male">Male</label>
+			<input id="Male" type="radio" name="Gender" value="Male" required>
+			<label for="Female">Female</label>
+			<input id="Female" type="radio" name="Gender" value="Female" required>
+			<label for="Other">Other</label>
+			<input id="Other" type="radio" name="Gender" value="Other" required>
+	    </div>
+
+	    <div>
+	    	<label for="Email">Email:</label>
+	    	<input id="Email" type="Email" name="email" placeholder="your email" required>
+	    	<label for="Password">Password:</label>
+	    	<input id="Password" type="password" name="Password" required>
+	    </div>
+	    <label>Birthday:</label>
+	    <select name="Month">
+	    	<option>Month</option>
+	    	<option>Jan</option>
+	    	<option>Feb</option>
+	    	<option>March</option>	    
+	    </select>
+	    <select name="Day">
+	    	<option>Day</option>
+	    	<option>1</option>
+	    	<option>2</option>
+	    	<option>3</option>
+	    	<option>4</option>
+	    	<option>5</option>
+	    	<option>6</option>
+	    	<option>7</option>
+	    	<option>8</option>	    
+	    </select>
+	    <select name="Year">
+	    	<option>Year</option>
+	    	<option>1982</option>
+	    	<option>1983</option>
+	    	<option>1984</option>
+	    	<option>1985</option>
+	    	<option>1986</option>
+	    	<option>1987</option>
+	    	<option>1989</option>
+	    </select>
+	    <div>
+	    <label>I agree to terms and conditions</label>
+	    <input type="checkbox" name="checbox" required>
+	    </div>
+
+	    <input type="submit" name="submit" placeholder="Submit" required>
+	</form>
+</body>
+</html>
